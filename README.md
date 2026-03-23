@@ -18,36 +18,26 @@ A fun, scrollable website that tells the story of a developer's life — learnin
 | 06 | **Epilogue** | The story never ends — new project tomorrow |
 
 ---
-
-## ✅ Functional Highlights
-
-### 1. Story Structure (5+ sections)
-7 cohesive narrative sections: Hero → Introduction → Exploration → Deadline → Insight → Conclusion → Epilogue
-
-### 2. Scroll-Based Interactions (2+ effects)
-- **Parallax grid** — hero background drifts at different scroll speed
-- **Scroll-triggered reveals** — every element animates in on scroll (IntersectionObserver)
-- **Scroll progress bar** — gradient bar at top tracks reading progress
-
-### 3. Interactive Elements (3+ interactions)
-- **Drag & Drop** — skill chips into your personal stack
-- **Clickable bug cards** — resolve bugs with audio feedback
-- **Accordion** — 5 Stages of Debugging Grief (click to expand/collapse)
-- **Coffee cups + progress bars** — click to refuel, bars animate live
-- **Hover flip-cards** — insight cards flip to reveal developer wisdom
-
-### 4. Animations (3+ distinct)
-- **Cinematic loader** — word-by-word title reveal + terminal lines + fill bar
-- **Floating ambient code** — drifting code snippets in the hero background
-- **Custom cursor** — smooth ring-follow with state changes
-- **Scroll reveal** — fade + translate on every content block
-- **Animated counters** — stat numbers count up on scroll
-- **Confetti burst** — on deploy success and celebrate button
-
-### 5. Responsive Design
-- Fully responsive: Desktop → Tablet → Mobile
-- 3-column grids collapse to 2, then 1 column
-- Nav adapts; all interactions work on touch devices
+## KEY FEATURES
+─────────────
+• 7-chapter cohesive narrative arc
+• Cinematic loader with word-by-word title animation
+• Parallax hero grid + floating ambient code snippets
+• Scroll-triggered element reveals throughout
+• Drag & drop skill stack builder
+• Interactive bug cards with audio feedback
+• Accordion "5 stages of debugging grief"
+• Coffee cup click-to-refuel with live progress bars
+• Live countdown clock
+• Hover flip-cards revealing developer wisdom
+• Animated stat counters
+• Full deploy sequence with confetti burst
+• Keyboard arrow navigation between chapters
+• Dark/light theme toggle
+• Custom animated cursor
+• Easter egg hidden in bottom-right corner
+• Web Audio API sound effects
+• Fully responsive: desktop, tablet, mobile
 
 ---
 
@@ -87,21 +77,6 @@ dev-story-project/
 └── assets/
     └── screenshots/    # (Add your own screenshots here)
 ```
-
----
-
-## 🎨 Design System
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--green` | `#1ef080` | Primary accent, success states |
-| `--cyan` | `#1ecff0` | Secondary accent, code |
-| `--orange` | `#ff7a40` | Deadline, warnings |
-| `--red` | `#ff3a5c` | Errors, bugs |
-| `--purple` | `#a87aff` | Insight, wisdom |
-| `--mono` | JetBrains Mono | Code, labels, nav |
-| `--serif` | Playfair Display | Headings, story text |
-| `--sans` | Outfit | Body copy |
 
 ---
 
