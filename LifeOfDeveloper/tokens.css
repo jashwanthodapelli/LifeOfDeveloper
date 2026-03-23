@@ -1,0 +1,48 @@
+/*
+ * Code, Coffee & Chaos — Design Tokens
+ * ======================================
+ * All CSS custom properties used across the project.
+ * These are embedded in index.html :root block.
+ * This file is for reference / documentation only.
+ */
+
+:root {
+  /* ── Backgrounds ── */
+  --bg:       #070712;   /* Page background */
+  --bg2:      #0c0c1e;   /* Alternate section bg */
+  --surface:  #10102a;   /* Cards, panels */
+  --card:     #16163a;   /* Elevated surfaces */
+
+  /* ── Borders ── */
+  --border:   rgba(255,255,255,0.08);
+  --bfaint:   rgba(255,255,255,0.04);
+
+  /* ── Text ── */
+  --text:     #e0ddf8;   /* Primary text */
+  --muted:    #6a6490;   /* Secondary / dimmed */
+
+  /* ── Brand Colors ── */
+  --green:    #1ef080;   /* Primary accent */
+  --cyan:     #1ecff0;   /* Secondary accent */
+  --orange:   #ff7a40;   /* Deadline / warning */
+  --red:      #ff3a5c;   /* Error / danger */
+  --yellow:   #ffd44a;   /* Hint / caution */
+  --purple:   #a87aff;   /* Insight / wisdom */
+
+  /* ── Tinted Backgrounds ── */
+  --gdim:     rgba(30,240,128,0.10);
+  --cdim:     rgba(30,207,240,0.10);
+  --rdim:     rgba(255,58,92,0.10);
+
+  /* ── Glows ── */
+  --glow-g:   0 0 30px rgba(30,240,128,0.40);
+  --glow-r:   0 0 30px rgba(255,58,92,0.40);
+
+  /* ── Typography ── */
+  --mono:    'JetBrains Mono', monospace;   /* Code, labels */
+  --serif:   'Playfair Display', serif;     /* Headings, story */
+  --sans:    'Outfit', sans-serif;          /* Body copy */
+
+  /* ── Easing ── */
+  --ease:    cubic-bezier(0.16, 1, 0.3, 1); /* Smooth out */
+}

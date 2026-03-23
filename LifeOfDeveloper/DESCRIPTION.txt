@@ -1,0 +1,77 @@
+PROJECT DESCRIPTION
+===================
+Code, Coffee & Chaos — The Life of a Developer
+A Humorous Interactive Storytelling Journey
+
+─────────────────────────────────────────────
+
+OVERVIEW (200–300 words)
+─────────────────────────
+"Code, Coffee & Chaos" is an immersive, scroll-driven storytelling website that
+transforms the everyday life of a developer into an engaging narrative experience.
+Rather than presenting information in a static format, the site takes users on a
+cinematic journey through seven chapters — from the first "Hello, World!" moment
+to the triumphant (and exhausted) deployment at 3 AM.
+
+The experience blends humour with genuine emotion. Users don't just read about
+debugging — they actively fix TypeErrors, click through the five stages of
+debugging grief, and watch their sanity bar drop in real time as they drink more
+virtual coffee. The tone is self-aware and comedic, capturing the absurdity of
+developer life while remaining deeply relatable to anyone who has stared at a
+blinking cursor wondering if they chose the wrong career.
+
+Technically, the site is a zero-dependency, single-file HTML application. It uses
+vanilla JavaScript with the IntersectionObserver API for scroll-triggered reveals,
+a canvas-based particle system for ambient background animation, the Web Audio API
+for sound feedback on interactions, and CSS custom properties for a cohesive design
+system that supports both dark and light themes.
+
+The project demonstrates that rich, interactive storytelling doesn't require heavy
+frameworks — just careful design, thoughtful animation, and a deep understanding of
+the medium. Every scroll effect, hover interaction, and micro-animation serves the
+story, not the technology.
+
+─────────────────────────────────────────────
+
+KEY FEATURES
+─────────────
+• 7-chapter cohesive narrative arc
+• Cinematic loader with word-by-word title animation
+• Parallax hero grid + floating ambient code snippets
+• Scroll-triggered element reveals throughout
+• Drag & drop skill stack builder
+• Interactive bug cards with audio feedback
+• Accordion "5 stages of debugging grief"
+• Coffee cup click-to-refuel with live progress bars
+• Live countdown clock
+• Hover flip-cards revealing developer wisdom
+• Animated stat counters
+• Full deploy sequence with confetti burst
+• Keyboard arrow navigation between chapters
+• Dark/light theme toggle
+• Custom animated cursor
+• Easter egg hidden in bottom-right corner
+• Web Audio API sound effects
+• Fully responsive: desktop, tablet, mobile
+
+─────────────────────────────────────────────
+
+TECH STACK
+───────────
+• HTML5 (semantic, accessible markup)
+• CSS3 (custom properties, grid, flexbox, keyframe animations)
+• Vanilla JavaScript (no frameworks)
+• Canvas API (particle background)
+• IntersectionObserver API (scroll reveals)
+• Web Audio API (sound feedback)
+• Google Fonts (Playfair Display, Outfit, JetBrains Mono)
+
+─────────────────────────────────────────────
+
+REQUIREMENTS MET
+─────────────────
+✅ Story Structure    — 7 sections: Hero → Origin → Debugging → Deadline → Insight → Success → Epilogue
+✅ Scroll Effects     — Parallax grid, scroll-triggered reveals, scroll progress bar
+✅ Interactive Elems  — Drag/drop, bug cards, accordion, coffee tracker, flip cards, deploy button
+✅ Animations         — Loader, floating code, cursor, reveals, counters, confetti
+✅ Responsive Design  — Fully tested desktop (1440px), tablet (768px), mobile (375px)
