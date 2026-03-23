@@ -1,11 +1,11 @@
-PROJECT DESCRIPTION
+## PROJECT DESCRIPTION
 ===================
 Code, Coffee & Chaos — The Life of a Developer
 A Humorous Interactive Storytelling Journey
 
 ─────────────────────────────────────────────
 
-OVERVIEW (200–300 words)
+### OVERVIEW 
 ─────────────────────────
 "Code, Coffee & Chaos" is an immersive, scroll-driven storytelling website that
 transforms the everyday life of a developer into an engaging narrative experience.
@@ -33,7 +33,7 @@ story, not the technology.
 
 ─────────────────────────────────────────────
 
-KEY FEATURES
+## KEY FEATURES
 ─────────────
 • 7-chapter cohesive narrative arc
 • Cinematic loader with word-by-word title animation
@@ -56,7 +56,7 @@ KEY FEATURES
 
 ─────────────────────────────────────────────
 
-TECH STACK
+## TECH STACK
 ───────────
 • HTML5 (semantic, accessible markup)
 • CSS3 (custom properties, grid, flexbox, keyframe animations)
@@ -68,7 +68,7 @@ TECH STACK
 
 ─────────────────────────────────────────────
 
-REQUIREMENTS MET
+## FUNCTIONAL HIGHLIGHTS
 ─────────────────
 ✅ Story Structure    — 7 sections: Hero → Origin → Debugging → Deadline → Insight → Success → Epilogue
 ✅ Scroll Effects     — Parallax grid, scroll-triggered reveals, scroll progress bar
